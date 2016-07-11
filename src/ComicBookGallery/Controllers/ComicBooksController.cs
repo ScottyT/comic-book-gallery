@@ -15,7 +15,7 @@ namespace ComicBookGallery.Controllers
             {
                 SeriesTitle = "The Amazing Spider-Man",
                 IssueNumber = 700,
-                DescriptionHTML = "<p>Final issue! Witness the final hours of Doctor Octopus' life and his one, last, great act of revenge! Even if Spider-Man survives... <strong>will Peter Parker?</strong></p>",
+                DescriptionHtml = "<p>Final issue! Witness the final hours of Doctor Octopus' life and his one, last, great act of revenge! Even if Spider-Man survives... <strong>will Peter Parker?</strong></p>",
                 Artists = new Artist[]
                 {
                     new Models.Artist() { Name = "Dan Slott", Role = "Script" },
