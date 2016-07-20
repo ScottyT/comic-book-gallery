@@ -24,7 +24,7 @@ namespace ComicBookGallery.Data
                 }
                 if (seriesToReturn != null)
                 {
-                    var comicBooks = new ComicBook[0];
+                    var comicBooks = new ComicBook[1];
                     foreach (var comicBook in Data.ComicBooks)
                     {
                         if (comicBook.Series != null && comicBook.Series.Id == id)

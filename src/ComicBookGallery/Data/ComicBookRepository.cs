@@ -12,7 +12,7 @@ namespace ComicBookGallery.Data
         {
             return Data.ComicBooks;
         }
-        public ComicBook GetComicBook(int id)
+        public ComicBook GetComicBook(int? id)
         {
             ComicBook comicBookToReturn = null;
 
